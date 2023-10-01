@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Roboto:wght@100&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    display: flex;
+    background-color: rgba(48, 43, 43, 0.945);
+    align-items: center;
+}
+.nav-title{
+    color: white;
+    align-items: center;
+    margin-top: 40px;
+    padding-top: 0px;
+    margin: 5px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+.nav-links  li a{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: rgb(109, 123, 134);
+    text-decoration: none;
+    margin-right: 50px;
+    padding-bottom: 0px;
+    text-align: center;
+    
+
+}
+.active{
+    color:aliceblue;
+}
+.btn{
+    background-color: rgb(64, 163, 163);
+    box-shadow: 5px 5px 5px  black;
+    border: 3px solid black;
+    color: aliceblue;
+    width: 70px;
+    margin-right: 10px;
+    align-items: center;
+
+}
+li{
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+    position: relative;
+    right: -850px;
+    top:5px;
+}
